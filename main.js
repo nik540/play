@@ -1,5 +1,5 @@
 let random = (min, max) => {
-  return (Math.random() * (max - min + 1) + min);
+  return (Math.random() * (max - min) + min);
 }
 alert(random(1, 5));
 alert(random(1, 5));
