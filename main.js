@@ -1,15 +1,13 @@
 let mas = [];
 let sum = 0;
-let sumInput = () => {
-  for (i = 0; ; i++) {
-    mas[i] = prompt();
-    if (mas[i] === null || mas[i] === "" || !isFinite(mas[i])) {
-      mas.pop();
-      break;
-    };
-    sum += +mas[i];
-  }
+let getSubSum = () => {
+  for (i = 0; i < 5; i++) {
+    mas[i] = +prompt();
+    if (mas[i] < 0) continue;
+    sum += mas[i];
+    if (mas[i] < 0) break;
+  };
 };
-sumInput();
+getSubSum();
 alert(mas);
 alert(sum);
