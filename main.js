@@ -1,10 +1,15 @@
-let styles = ['Джаз', 'Рок'];
-styles.push('Рок-н-рол');
-let ekv = (styles.length - 1) / 2;
-styles[ekv] = ('Классика');
-alert(styles.shift());
-styles.unshift('Реп', 'Реги')
-
-alert(styles);
-alert(ekv);
-alert(styles[ekv]);
+let mas = [];
+let sum = 0;
+let sumInput = () => {
+  for (i = 0; ; i++) {
+    mas[i] = prompt();
+    if (mas[i] === null || mas[i] === "" || !isFinite(mas[i])) {
+      mas.pop();
+      break;
+    };
+    sum += +mas[i];
+  }
+};
+sumInput();
+alert(mas);
+alert(sum);
