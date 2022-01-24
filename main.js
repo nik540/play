@@ -40,7 +40,8 @@ function metSubSum() {
   for (i = 0; i < mas.length; i++) {
     sum3 = sum2;
     sum2 += mas[i];
-    mas2[i] = sum2 - sum3;
+    mas2[i] = sum2;
+
   };
 
   // for (i = 0; i < mas1.length; i++) {
