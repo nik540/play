@@ -1,29 +1,25 @@
 
-"use strict";
+/*"use strict";
 const arr = [1, 2, 3, 15, 4];
 const arr1 = [6, 11, 7];
 const arr2 = [9, 1];
 
-function milderRange(arr) {
-  return arr
+function milderRange(mas, mas1) {
+  return mas
     .sort((a, b) => a - b)//изменяет исходный
     .map(a => a + 1)//не изм исх
     .filter(n => n % 2 == 0)//не изм исх
-    .concat(arr1)//не изм исх
-  //.includes(5)//не изм исх
-  //.reduce((total, item, index, array) => { total += item }, 0)//не изм исх
-  // .reduce(function (to))
+    .concat(mas1)//не изм исх
+    //.includes(5)//не изм исх
+    .reduce((total, element) => total += element)//не изм исх
 };
-const a = arr.reduce((total, item, index, array) => {
-  total.push(item + 1)
-  return total
-}, []);//вернет новый мас, не изм исх
-// function filderRange(arr2) {
-// return arr2 = arr
 
-const b = milderRange(arr)
-alert(b);
-// alert(filderRange(arr2));
-// alert(arr2)
+const map = (arr3, fn) => {
+  return arr3.reduce((total, element) => {
+    return [...total, fn(element)]
+  }, [])
+};
+
+alert(milderRange(arr, arr1));
 alert(arr);
-alert(a);
+alert(map(arr, n => n + 1))*/
