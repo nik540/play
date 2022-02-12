@@ -1,4 +1,4 @@
-"use strict";
+/*"use strict";
 const arr = [1, 2, 3, 15, 3, 4];
 const arr1 = [];
 const arr2 = [];
@@ -29,4 +29,4 @@ function nilderRange(mas, mas1, mas2) {
    return mas2
 };
 alert(miderRange(a, b, arr1));
-alert(nilderRange(arr, arr1, arr2));
+alert(nilderRange(arr, arr1, arr2));*/
