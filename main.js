@@ -1,4 +1,3 @@
-
 /*"use strict";
 const arr = [1, 2, 3, 15, 4];
 const arr1 = [6, 11, 7];
@@ -14,12 +13,8 @@ function milderRange(mas, mas1) {
     .reduce((total, element) => total += element)//не изм исх
 };
 
-const map = (arr3, fn) => {
-  return arr3.reduce((total, element) => {
-    return [...total, fn(element)]
-  }, [])
-};
+
 
 alert(milderRange(arr, arr1));
-alert(arr);
-alert(map(arr, n => n + 1))*/
+alert(arr);*/
+
