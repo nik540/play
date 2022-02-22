@@ -1,5 +1,6 @@
-"use strict";
-const arr = [1, 2, 3, 15, 3, 4];
+'use strict';
+const arr = ["HTML", "JavaScript", "CSS"]
+//[1, 2, 3, 15, 3, 4];
 const arr1 = [];
 const arr2 = [];
 const ad = 12;
@@ -33,18 +34,44 @@ const bt = 1;
    return mas2
 }*/
 
-// function lilderRange(mas, it, it1) {
-// return mas
-// .filter(a => a <= it && a >= it1)
-// }
-
-function vilderRange(mas, it, it1) {
+/*function lilderRange(mas, it, it1) {
    return mas
-      .forEach(a => a <= it && a >= it1)
-   // .sort((a, b) => a - b)
-}
+      .filter(a => a <= it && a >= it1)
+}*/
+
+/*function vilderRange(mas, a, b) {
+   for (let i = 0; i < mas.length; i++) {
+      if (a < mas[i] || b > mas[i]) {
+         mas.splice(i, 1);
+         i--;
+      }
+   }
+}*/
+/*function tiderRange(mas) {
+   mas.sort((a, b) => b - a)
+}*/
+//let solter = copySolter(arr)
+
+/*function copySolter(mas) {
+   let mas1 = [];
+   for (let i = 0; i <= mas.length; i++) {
+      mas1[i] = mas[mas.length - 1 - i]
+   }
+   mas = mas1;
+   return mas;
+}*/
+/*function copySolter(mas) {
+   return mas
+      .slice()
+      .sort()
+}*/
+
 // alert(miderRange(ad, bt, arr1));
 // alert(nilderRange(arr, arr1, arr2));
 // alert(lilderRange(arr, ad, bt));
-alert(vilderRange(arr, ad, bt));
-alert(arr);
+// vilderRange(arr, ad, bt);
+//tiderRange(arr)
+//copySolter(arr);
+// alert(arr);
+//alert(solter)
+//alert(solter)
